@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/09/09/VSCode%20%E7%9A%84%20C%20C++%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://micking-m.github.io/2023/09/09/VSCode%20%E7%9A%84%20C%20C++%20%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     
     <lastmod>2023-09-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/shuoshuo/index.html</loc>
+    <loc>https://micking-m.github.io/shuoshuo/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/movies/index.html</loc>
+    <loc>https://micking-m.github.io/movies/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/books/index.html</loc>
+    <loc>https://micking-m.github.io/books/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/archives/index.html</loc>
+    <loc>https://micking-m.github.io/archives/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>https://micking-m.github.io/about/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>https://micking-m.github.io/link/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>https://micking-m.github.io/categories/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>https://micking-m.github.io/tags/index.html</loc>
     
     <lastmod>2023-09-08</lastmod>
     
@@ -84,7 +84,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>https://micking-m.github.io/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -92,7 +92,7 @@
 
   
   <url>
-    <loc>http://example.com/tags/%E6%95%99%E7%A8%8B-C-C-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>https://micking-m.github.io/tags/%E6%95%99%E7%A8%8B-C-C-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -101,7 +101,7 @@
 
   
   <url>
-    <loc>http://example.com/categories/C-C/</loc>
+    <loc>https://micking-m.github.io/categories/C-C/</loc>
     <lastmod>2023-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
