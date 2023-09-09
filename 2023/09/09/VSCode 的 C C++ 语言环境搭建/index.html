@@ -186,7 +186,7 @@
 <blockquote>
 <p><a href="#%E9%85%8D%E7%BD%AE-c_cpp_properties.json"><code>c_cpp_properties.json</code></a><br><a href="#%E9%85%8D%E7%BD%AE-tasks.josn"><code>tasks.josn</code></a><br><a href="#%E9%85%8D%E7%BD%AE-launch.json"><code>launch.json</code></a></p>
 </blockquote>
-<h3 id="配置-c-cpp-properties-json"><a href="#配置-c-cpp-properties-json" class="headerlink" title="配置 c_cpp_properties.json"></a>配置 c_cpp_properties.json</h3><p>这一步主要是用于使VSCode知道编译器的路径，以方便调用<br>首先创建一个新项目，即文件夹。<br><img src="/img/loading.gif" data-original="/./res/img-20230909160148.png" alt="Img"><br>然后打开全局命令面板(快捷键Ctrl + Shift + P) 按下 <strong>&gt;</strong> 搜索找到C&#x2F;C++: Edit Configurations (C&#x2F;C++: 编辑配置)<br><img src="/img/loading.gif" data-original="/./res/img-20230909160827.png" alt="Img"><br>然后跳转到配置界面，这里是选用UI配置，主要配置三个参数<br><img src="/img/loading.gif" data-original="/./res/img-20230909191036.png" alt="Img"><br>需要注意的是包含路径参数(includePath)需要在cmd中输入<code>gcc -v -E -x c++ -</code>在指令结束最后可以获得一系列路径，需要把路径加入到这个参数列表中<br><img src="/img/loading.gif" data-original="/./res/img-20230909173745.png" alt="Img"><br>可选择配置C标准和C++标准<br>配置完成后可以发现<code>.vscode</code>文件夹里面有<code>c_cpp_properties.json</code></p>
+<h3 id="配置-c-cpp-properties-json"><a href="#配置-c-cpp-properties-json" class="headerlink" title="配置 c_cpp_properties.json"></a>配置 c_cpp_properties.json</h3><p>这一步主要是用于使VSCode知道编译器的路径，以方便调用<br>首先创建一个新项目，即文件夹。<br><img src="/img/loading.gif" data-original="https://raw.githubusercontent.com/Micking-M/images/master/images/yank-note-picgo-img-20230909160148.png" alt="Img"><br>然后打开全局命令面板(快捷键Ctrl + Shift + P) 按下 <strong>&gt;</strong> 搜索找到C&#x2F;C++: Edit Configurations (C&#x2F;C++: 编辑配置)<br><img src="/img/loading.gif" data-original="https://raw.githubusercontent.com/Micking-M/images/master/images/yank-note-picgo-img-20230909160827.png" alt="Img"><br>然后跳转到配置界面，这里是选用UI配置，主要配置三个参数<br><img src="/img/loading.gif" data-original="https://raw.githubusercontent.com/Micking-M/images/master/images/yank-note-picgo-img-20230909191036.png" alt="Img"><br>需要注意的是包含路径参数(includePath)需要在cmd中输入<code>gcc -v -E -x c++ -</code>在指令结束最后可以获得一系列路径，需要把路径加入到这个参数列表中<br><img src="/img/loading.gif" data-original="https://raw.githubusercontent.com/Micking-M/images/master/images/yank-note-picgo-img-20230909173745.png" alt="Img"><br>可选择配置C标准和C++标准<br>配置完成后可以发现<code>.vscode</code>文件夹里面有<code>c_cpp_properties.json</code></p>
 <h3 id="配置-tasks-josn"><a href="#配置-tasks-josn" class="headerlink" title="配置 tasks.josn"></a>配置 tasks.josn</h3><p>这个文件是用于编译文件的</p>
 <p>首先新建一个后缀为<code>.cpp</code>或者<code>.c</code>的空文件<br>然后打开全局命令面板 搜索tasks 选择Tasks:Configure Default Build Task(任务：配置默认生成任务)<br>。选择 C&#x2F;C++: g++.exe build active file。若是 C，请选择 C&#x2F;C++: gcc.exe build active file<br>完成后会在 <code>.vscode</code> 文件夹下创建 <code>task.json</code> 文件并打开<br>参数基本无需配置</p>
 <pre><code class="json">&#123;
@@ -219,7 +219,7 @@
 &#125;
 </code></pre>
 <h3 id="配置-launch-json"><a href="#配置-launch-json" class="headerlink" title="配置 launch.json"></a>配置 launch.json</h3><p>这个文件是配置调试设置的，方便调试</p>
-<p>最开始按照网上的方式<br><img src="/img/loading.gif" data-original="/./res/img-20230909170424.png" alt="Img"></p>
+<p>最开始按照网上的方式<br><img src="/img/loading.gif" data-original="https://raw.githubusercontent.com/Micking-M/images/master/images/yank-note-picgo-img-20230909170424.png" alt="Img"></p>
 <p>启动调试后选择GDB&#x2F;LLDB调试器后创建<code>launch.json</code> 里面已包含了无需调整的参数，但是很可惜，我只生成了空的<code>launch.json</code><br>最后借鉴了网上的json参数实现的，需要修改两个参数<code>cwd</code>和<code>miDebuggerPath</code></p>
 <pre><code class="json">&#123;
     // 使用 IntelliSense 了解相关属性。 
