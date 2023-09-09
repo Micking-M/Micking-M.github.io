@@ -8,5 +8,7 @@ https://micking-m.github.io/link/index.html
 https://micking-m.github.io/categories/index.html
 https://micking-m.github.io/tags/index.html
 https://micking-m.github.io/
-https://micking-m.github.io/tags/%E6%95%99%E7%A8%8B-C-C-%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/
+https://micking-m.github.io/tags/%E6%95%99%E7%A8%8B/
+https://micking-m.github.io/tags/C-C/
+https://micking-m.github.io/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/
 https://micking-m.github.io/categories/C-C/
